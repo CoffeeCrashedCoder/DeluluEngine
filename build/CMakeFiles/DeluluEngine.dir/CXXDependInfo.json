@@ -1,0 +1,37 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/DeluluEngine/build",
+	"dir-cur-src" : "C:/DeluluEngine",
+	"dir-top-bld" : "C:/DeluluEngine/build",
+	"dir-top-src" : "C:/DeluluEngine",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\DeluluEngine\\src",
+		"C:\\DeluluEngine\\external\\glad\\include",
+		"_deps\\glfw-src\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/DeluluEngine/build/CMakeFiles/DeluluEngine.dir",
+	"sources" : 
+	{
+		"CMakeFiles/DeluluEngine.dir/src/Window.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/DeluluEngine/src/Window.cpp"
+		},
+		"CMakeFiles/DeluluEngine.dir/src/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/DeluluEngine/src/main.cpp"
+		}
+	}
+}
