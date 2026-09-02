@@ -8,3 +8,16 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# ignore build
+build/
+cmake-build-*/
+out/
+
+# ignore generated
+compile_commands.json
+CMakeFiles/
+CMakeCache.txt
+*.ninja
+.ninja_log
+.ninja_deps
