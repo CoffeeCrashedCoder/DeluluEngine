@@ -21,3 +21,6 @@ CMakeCache.txt
 *.ninja
 .ninja_log
 .ninja_deps
+
+# idea files
+.idea/
