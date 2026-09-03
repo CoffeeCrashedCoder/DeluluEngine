@@ -8,7 +8,7 @@
 class Window
 {
 public:
-    Window(int width, int height, const std::string& title);
+    Window(int width, int height, int max_width, int max_height, const std::string& title);
     ~Window();
 
     bool ShouldClose() const;
@@ -23,6 +23,8 @@ private:
 
     int m_width;
     int m_height;
+    int m_max_width;
+    int m_max_height;
 
     static void framebufferResizeCallback(GLFWwindow* window, int width, int height);
 };
