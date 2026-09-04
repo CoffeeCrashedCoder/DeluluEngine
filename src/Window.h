@@ -17,6 +17,8 @@ public:
 
     int width() const {return m_width;};
     int height() const {return m_height;};
+    
+    GLFWwindow* ExceptionAllowGetHandle(){return m_handle;};
 
 private:
     GLFWwindow* m_handle = nullptr;
